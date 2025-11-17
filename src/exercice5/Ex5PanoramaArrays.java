@@ -1,4 +1,4 @@
-package exercice4;
+package exercice5;
 
 import java.util.Arrays;
 
@@ -16,21 +16,13 @@ public class Ex5PanoramaArrays {
 				c[i]=42;
 			}
 		
-*/
-
-
+              */
 		}
 		 
-		
-		
-		
 		System.out.println("tableau a: "+Arrays.toString(a));
 		System.out.println("tableau b: "+Arrays.toString(b));
 		System.out.println("tableau c: "+Arrays.toString(c));
-	
-		
 		System.out.println("b et c identiques =>" +Arrays.equals(b, c));
-		
 		boolean identique=Arrays.equals(b, c);
 		System.out.println(identique?"ils sont identique":"ne sont pas identiques");
 		int mm=Arrays.mismatch(b, c);
