@@ -35,6 +35,7 @@ public class Ex5PanoramaArrays {
 		String[][] noms = {{"Ben Salah","Mohamed"}, {"Ben Ammar","Ali"},
 				 {"Ben Farhat","Sami"}};
 		System.out.println(Arrays.deepToString(noms));
+		//deepToString affiche tableau avec 2 dimensions 
 		
 		
 	
