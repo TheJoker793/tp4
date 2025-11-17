@@ -10,10 +10,20 @@ public class Ex5PanoramaArrays {
 		Arrays.sort(b);
 		int[]c=Arrays.copyOf(b, b.length);
 		if(c.length>2) {
+			Arrays.fill(c, 1, c.length - 1, 42);
+			/* Methodes classique		
 			for(int i=1;i<c.length-1;i++) {
 				c[i]=42;
 			}
+		
+*/
+
+
 		}
+		 
+		
+		
+		
 		System.out.println("tableau a: "+Arrays.toString(a));
 		System.out.println("tableau b: "+Arrays.toString(b));
 		System.out.println("tableau c: "+Arrays.toString(c));
